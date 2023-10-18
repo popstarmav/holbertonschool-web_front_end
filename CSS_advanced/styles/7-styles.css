@@ -1,0 +1,32 @@
+/* Define custom properties */
+:root {
+  --color-primary: #d73953;
+  --color-black: #090909;
+  --color-white: #ffffff;
+  --color-light-grey: #f3f3f3;
+  --color-dark-grey: #353535;
+  --text-color: var(--color-black);
+
+  --font-family-base: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-family-title: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Reset section-tagline and card-category to color-primary */
+.section-tagline, .card-category {
+  color: var(--color-primary);
+}
+
+/* Reset body and anchor to text-color */
+body, a {
+  color: var(--text-color);
+}
+
+/* Set body's font-family to font-family-base */
+body {
+  font-family: var(--font-family-base);
+}
+
+/* Set font-family for section headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-title);
+}
