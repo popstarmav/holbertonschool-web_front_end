@@ -4,17 +4,17 @@ a[href] {
 }
 
 /* Target the visited state for the link */
-a:visited {
+a[href]:visited {
   text-decoration: none;
   font-style: italic;
 }
 
 /* Target the hover state for the link */
-a:hover {
+a[href]:hover {
   text-decoration: underline;
 }
 
 /* Target the active state for the link */
-a:active {
+a[href]:active {
   background-color: var(--color-light-grey);
 }
